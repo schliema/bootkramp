@@ -1,8 +1,6 @@
 // @flow
 
 import * as React from 'react'
-import styled from 'styled-components'
-import type { BrandType } from '../Types'
 import Brand from './Brand'
 import PageWrapper from './PageWrapper'
 import MainWrapper from './MainWrapper'
