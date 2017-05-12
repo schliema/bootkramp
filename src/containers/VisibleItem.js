@@ -1,7 +1,7 @@
 // @flow
 
 import {connect} from 'react-redux'
-import {getItem} from '../actions'
+import {getItem, setCurrentItem} from '../actions'
 import Item from '../components/Item'
 import type { ItemsType } from '../Types'
 
@@ -13,7 +13,9 @@ const mapStateToProps = (state: ItemsType) => {
       name: state.items.currentItem.name,
       imageLocation: state.items.currentItem.imageLocation,
       seller: state.items.currentItem.seller,
-      itemDetails: state.items.currentItem.itemDetails
+      price: state.items.currentItem.price,
+      itemDetails: state.items.currentItem.itemDetails,
+      items: state.items.items
     }
   } else {
     return {
@@ -22,7 +24,9 @@ const mapStateToProps = (state: ItemsType) => {
       name: null,
       imageLocation: null,
       seller: null,
-      itemDetails: []
+      price: null,
+      itemDetails: [],
+      items: state.items.items
     }
   }
 }
@@ -31,6 +35,9 @@ const mapDispatchToProps = (dispatch) => {
   return {
     getItem: (id: number) => {
       dispatch(getItem(id))
+    },
+    setCurrentItem: (item: any) => {
+      dispatch(setCurrentItem(item))
     }
   }
 }

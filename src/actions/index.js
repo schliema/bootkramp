@@ -22,3 +22,14 @@ export const getItems = () : ActionType => ({
   type: 'GET_ITEMS',
   payload: Axios.get('http://localhost:3006/items/')
 })
+
+export const addItemAndSeller = (itemId: number, sellerName: string) : any => ({
+  type: 'ADD_ITEM_AND_SELLER',
+  itemId: itemId,
+  sellerName: sellerName
+})
+
+export const setCurrentItem = (item: any) : any => ({
+  type: 'SET_CURRENT_ITEM',
+  item: item
+})

@@ -4,9 +4,9 @@ import { combineReducers } from 'redux'
 import brands from './Brands'
 import items from './Items'
 
-const brandApp = combineReducers({
+const theApp = combineReducers({
   brands,
   items
 })
 
-export default brandApp
+export default theApp
