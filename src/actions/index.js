@@ -17,3 +17,8 @@ export const getItem = (id:  number) : ActionType => ({
   type: 'GET_ITEM',
   payload: Axios.get('http://localhost:3006/items/' + id)
 })
+
+export const getItems = () : ActionType => ({
+  type: 'GET_ITEMS',
+  payload: Axios.get('http://localhost:3006/items/')
+})

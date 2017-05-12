@@ -7,9 +7,8 @@ const MyDiv = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 5em;
   padding: 1em;
-  background: maroon;
+  width: 100%;
 `
 
 const MainWrapper = ({children}) => (

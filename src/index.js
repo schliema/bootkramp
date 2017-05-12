@@ -9,7 +9,7 @@ import {BrowserRouter, Link, Route} from 'react-router-dom'
 import brandApp from './reducers'
 import App from './App'
 import Home from './Home'
-import Category from './Category'
+import Category from './CategoryPage'
 import ItemPage from './ItemPage'
 import BrandPage from './BrandPage'
 import PageWrapper from './components/PageWrapper'
@@ -32,8 +32,8 @@ render(
       <PageWrapper>
           <Tabs>
             <Tab><Link to='/home'>Home</Link></Tab>
-            <Tab><Link to='/category'>Hydrauliek & Aandrijftechniek</Link></Tab>
-            <Tab><Link to='/category'>Tuin & Park</Link></Tab>
+            <Tab><Link to='/category'>Hydraulics & Transmission</Link></Tab>
+            <Tab><Link to='/category'>Garden Parts</Link></Tab>
             <Tab><Link to='/brands'>Brands</Link></Tab>
           </Tabs>
           <Route path='/home' component={Home}/>

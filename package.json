@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "mock": "json-server -w db.json -p 3006 --delay 300"
+    "mock": "json-server -w db.json -p 3006"
   },
   "proxy": "http://localhost:3006"
 }

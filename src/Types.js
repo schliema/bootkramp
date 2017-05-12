@@ -29,6 +29,8 @@ export type ItemType = {
   id: number,
   partNumber: string,
   name: string,
+  price: number,
+  brand: string,
   imageLocation: string,
   itemDetails: ItemDetailsType[]
 }

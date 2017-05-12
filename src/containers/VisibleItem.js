@@ -12,6 +12,7 @@ const mapStateToProps = (state: ItemsType) => {
       partNumber: state.items.currentItem.partNumber,
       name: state.items.currentItem.name,
       imageLocation: state.items.currentItem.imageLocation,
+      seller: state.items.currentItem.seller,
       itemDetails: state.items.currentItem.itemDetails
     }
   } else {
@@ -20,6 +21,7 @@ const mapStateToProps = (state: ItemsType) => {
       partnumber: null,
       name: null,
       imageLocation: null,
+      seller: null,
       itemDetails: []
     }
   }
