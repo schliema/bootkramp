@@ -36,7 +36,7 @@ class AddItemAndSeller extends React.Component {
             itemIdInput = itemId
           }}>
             {this.props.items.map(item =>
-              <option key={item.id} value={item.id}>{item.partNumber} {item.name}</option>
+              <option key={item.id} value={item.id}>{item.partNumber} {item.name} (€{item.price})</option>
             )}
           </select>
 

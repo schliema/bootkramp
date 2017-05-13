@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c97dea9d-7532-4069-ba15-30687ea6960a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/actions/index.js" afterPath="$PROJECT_DIR$/src/actions/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/addItemAndSeller.js" afterPath="$PROJECT_DIR$/src/containers/addItemAndSeller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/reducers/Items.js" afterPath="$PROJECT_DIR$/src/reducers/Items.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,16 +40,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/InputPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Items.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Items.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/Items.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -92,13 +80,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addItemAndSeller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="addItemAndSeller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/addItemAndSeller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="26" column="96" lean-forward="false" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+            <state relative-caret-position="378">
+              <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Category.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="44" />
+              <folding>
+                <element signature="e#10#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -187,8 +187,8 @@
         <option value="$PROJECT_DIR$/src/containers/VisibleCategory.js" />
         <option value="$PROJECT_DIR$/db.json" />
         <option value="$PROJECT_DIR$/src/actions/index.js" />
-        <option value="$PROJECT_DIR$/src/containers/addItemAndSeller.js" />
         <option value="$PROJECT_DIR$/src/reducers/Items.js" />
+        <option value="$PROJECT_DIR$/src/containers/addItemAndSeller.js" />
       </list>
     </option>
   </component>
@@ -476,12 +476,12 @@
       <updated>1493707086817</updated>
       <workItem from="1493707087971" duration="32001000" />
       <workItem from="1494316501236" duration="24254000" />
-      <workItem from="1494587951123" duration="32755000" />
+      <workItem from="1494587951123" duration="32967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89010000" />
+    <option name="totallyTimeSpent" value="89222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -799,16 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#10#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/InputForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -911,21 +901,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/addItemAndSeller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="26" column="96" lean-forward="false" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/Items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="66" column="44" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="44" />
+          <folding>
+            <element signature="e#10#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/addItemAndSeller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="38" column="84" lean-forward="false" selection-start-line="38" selection-start-column="84" selection-end-line="38" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
