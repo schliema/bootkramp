@@ -16,12 +16,12 @@ function addItemAndSeller(state: any, action: any) {
 
   const seller = {
     "name": action.sellerName,
-    "address1": "Breukelaarweg 23",
+    "address1": "Breukelaarweg 33",
     "address2": "7051 DW, Varsseveld",
-    "telephone": "123-456",
-    "email": "preowned@munsterman.nl",
+    "telephone": "123456",
+    "email": "preowned@somecompany.nl",
     "rating": "5",
-    "price": 1878.10,
+    "price": action.price,
     "url": "www.munsterman.nl"
   }
 
@@ -46,7 +46,6 @@ function addItemAndSeller(state: any, action: any) {
 }
 
 function setCurrentItem(state, action) {
-  console.log('whoopie')
   return {
     ...state,
     currentItem: action.item
