@@ -21,7 +21,7 @@ const CategoryDiv = styled.div`
 `
 
 const CategoryInfoElement = styled.div`
-  padding: 1em;
+  padding-left: 1em;
 `
 
 const RightWrapper = styled.div`
@@ -60,7 +60,12 @@ class Category extends React.Component {
                   <ItemDetails>
                     <CategoryInfoElement>
                       <Link to={'/item/' + item.id}>
-                        {item.partNumber}-{item.name}
+                        {item.partNumber}
+                      </Link>
+                    </CategoryInfoElement>
+                    <CategoryInfoElement>
+                      <Link to={'/item/' + item.id}>
+                        {item.name}
                       </Link>
                     </CategoryInfoElement>
                     {item.seller ? (
@@ -72,7 +77,7 @@ class Category extends React.Component {
                   </ItemDetails>
                   {item.seller ? (
                     <CategoryInfoElement>
-                      <img src="https://www.hsound.co.uk/wp-content/uploads/2014/02/Pre-owned.png" alt="pre-owned" width="50px" height="50px"/>
+                      <img src="https://www.hsound.co.uk/wp-content/uploads/2014/02/Pre-owned.png" alt="pre-" width="50px" height="50px"/>
                     </CategoryInfoElement>
                   ) : (<CategoryInfoElement></CategoryInfoElement>)}
                   {item.seller ? (
